@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10px"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="GOALS"
+            android:textSize="100px"
+            android:id="@+id/goal" >
+        </TextView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="120px"
+        android:layout_height= "5dp"
+        android:background="@color/colorPrimary" />
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="200px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Weight: "
+            android:textSize="40px"
+            android:id="@+id/lblWeight" >
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="40px"
+            android:id="@+id/weightvalue" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="250px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Steps last training: "
+            android:textSize="40px"
+            android:id="@+id/lblSteps" >
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="40px"
+            android:id="@+id/stepsvalue" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="300px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Last sleep time: "
+            android:textSize="40px"
+            android:id="@+id/lblSleep" >
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="40px"
+            android:id="@+id/sleepvalue" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="350px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Last Workout(min): "
+            android:textSize="40px"
+            android:id="@+id/lblWalk" >
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="40px"
+            android:id="@+id/walkvalue" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="400px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Hearth rate value: "
+            android:textSize="40px"
+            android:id="@+id/lblHeartrate" >
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" "
+            android:textSize="40px"
+            android:id="@+id/heartratevalue" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="500px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Set some goals!"
+            android:textSize="30px"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/lbladvise" >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="550px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="wrap_content"
+            android:textSize="50px"
+            android:layout_height="wrap_content"/>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ETvalue"
+            android:maxLength="6"
+            android:layout_marginLeft="20px"
+            android:text=" "
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="650px"
+        android:orientation="horizontal"
+        android:gravity="center|top">
+
+        <Button
+            android:id="@+id/measuremod"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="submit"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

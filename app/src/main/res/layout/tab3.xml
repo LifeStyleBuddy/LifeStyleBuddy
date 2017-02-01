@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.spalla.lifestylebuddy.Tab3">
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/codice_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/shakebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/shake_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="SHAKE FOR RECIPE!" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_marginTop="2dp"
+                android:text="LUNCH RECIPE"
+                android:textColor="@color/colorAccent">
+            </TextView>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageLunch"
+                android:src="@drawable/domanda"
+                android:layout_below="@+id/nome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:id="@+id/labelLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:text="LABEL">
+            </TextView>
+
+            <TextView
+                android:id="@+id/urllunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="URL">
+            </TextView>
+
+            <TextView
+                android:id="@+id/ld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_marginTop="2dp"
+                android:text="DINNER RECIPE"
+                android:textColor="@color/colorAccent">
+            </TextView>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageDinner"
+                android:src="@drawable/domanda"
+                android:layout_below="@+id/nome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:id="@+id/labelDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:text="LABEL">
+            </TextView>
+
+            <TextView
+                android:id="@+id/urlDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="URL">
+            </TextView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
