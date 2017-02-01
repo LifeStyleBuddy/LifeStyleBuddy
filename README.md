@@ -59,7 +59,6 @@ start is clicked, a new motivational image will be opened on the bottom of the p
 
 ## Possible improvements
 - In this type of architecture only two external API are used. For sure adding more of them would be a good improvement, mostly connect a fitness band API will increase a lot the value of the product.
-- Inside the process centric layer, newMeasure and newGoals are not matched to see if the user reach goals or not, this could be another important step, it will give the possibility to suggest goals value based on real comparisons.
 - Inside the third tab the user have the possibility to search for recipes. A possible improvement could be to give more informations about the food. This part was not implemented well because there were problems inside the business logic layer, sometimes the response was "500 internal server error" only because the list of ingredients was very long. based on this i decided to not take the ingredients value.
 
 
